@@ -1,18 +1,19 @@
-#include <stdio.h> 
+#include<stdio.h> 
+#include<conio.h>
   
 int main() 
 { 
     int A; 
   
-    printf("Enter the number A: "); 
+   
     scanf("%d", &A); 
   
     if (A > 0) 
-        printf("%d is positive.", A); 
+      printf("positive"); 
     else if (A < 0) 
-        printf("%d is negative.", A); 
+        printf("negative"); 
     else if (A == 0) 
-        printf("%d is zero.", A); 
+        printf("zero"); 
   
-    return 0; 
+   
 } 
